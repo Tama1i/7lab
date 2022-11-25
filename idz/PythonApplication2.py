@@ -25,7 +25,7 @@ if __name__ == '__main__':
     k = 0 
 
     print(f"sum = {s1}    nom = {k1}")
-    b = [i for i in a if i >= in1 and i <= in2 ]
-    c = [i for i in a if i < in1 or i > in2 ]
+    b = [i for i in a if int(i) >= in1 and int(i) <= in2 ]
+    c = [i for i in a if int(i) < in1 or int(i) > in2 ]
 
     print(b,c)
