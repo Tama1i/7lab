@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 import sys
 
 if __name__ == '__main__':
-
     a = list(map(float, input().split()))
     if len(a) != 10:
         print ("error")
@@ -13,10 +11,10 @@ if __name__ == '__main__':
     s = 0
     i = 0
 
-    for i in  a:
-        if (i % 7 == 0)  and (i < 0):
-            s += i
+    for i,val in enumerate(a):
+        if val % 7 == 0 and val < 0:
+            s += val
             k += 1
-    for i in a:
-        print(i," ")
+  
+    print(a)
     print(f"sum = {s}    kolvo = {k}")
