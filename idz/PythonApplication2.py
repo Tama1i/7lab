@@ -5,7 +5,7 @@ import sys
 if __name__ == '__main__':
 
     a = list(map(float, input().split()))
-    v=list(len(a))
+    v = list(len(a))
     k = 0
     k1 = 0
     s = 0
